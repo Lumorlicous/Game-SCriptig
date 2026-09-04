@@ -1,0 +1,35 @@
+_____ PseudoCode #2
+User int numOne
+User int numTwo
+User int Sum
+
+numOne and BumTwo equal up to Sum
+
+If a Letter is Present 
+
+_____ PseudoCode#3
+
+in a Loop User Enters a Number in a Int (Num) then add to sum will equal 0 also a Bool (Continue = True) 
+User types in Num Then a Promt will say "Type a Number to keep on adding,
+if finished type enter" 
+then once the User types enters, 
+Bool becomes False and Sum is Displayed
+If 
+
+_____ PseudoCode#4
+In a Loop using (Bool Continue) at the start Prompt to the User "Guess a Num 100 to 1" it would ask for a Answer (int) 
+input answer and see if the Answer is equal to Num 
+then prompt the User "want to guess again ? Yes or No"
+then if User types 'yes' allow another guess, 'No' make Continue = False
+
+
+____ Pseudo#5
+In a Loop using (Bool Continue) at the start Prompt to the User "Guess a Num 100 to 1" it would ask for a Answer (int) 
+input answer and see if the Answer is equal to Num 
+Then if the Answer is incorrect Compare if its less or more
+if less then prompt "left" "right" for if it's positive.
+if you answer Chances -1
+then if you guess right you get a promet "Correct yaay"
+If Answer or Num input is a Letter have the system prompt "this is a Letter" and adds one Chance 
+____ Letter Error
+If Answer or Num input is a Letter have the system prompt "this is a Letter" and restart system
