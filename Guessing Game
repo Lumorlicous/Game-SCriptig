@@ -1,0 +1,57 @@
+--Implent random
+math.randomseed(os.time())
+math.random()
+
+
+--variables
+answer = math.random (1,100)
+guesses = 7
+
+--Prompt
+print ("A random Number has been chosen, 1 - 100, Can you Guess the right one ?")
+
+while guesses == 0
+do
+    --UserInput & Function Call
+    userNum = io.read()  
+     countPrint (guesses)
+
+    -- Error Handling 
+    while userNum == nil do
+    print("Hon, A Number not a letter")
+    userNum = io.read()
+    end
+    --Conditions Win/Lose
+    if (userNum == answer) then
+        print ("Yaay, you got it.")
+
+    elseif (userNum > answer)
+          guesses - 1 = guesses
+          print ("Not, quite... Go Bigger, try Again")
+
+    elseif (userNum < answer) 
+         guesses - 1 = guesses
+         print ("Not, quite... Go Bigger, try Again")
+    end
+    results (guesses)
+end
+--Print function
+function countPrint (g)
+    if (g == 1) then
+    print ("What is your " g "st guess ?")
+    elseif (g == 1)
+    print ("What is your " g "nd guess ?")
+    elseif (g == 1)
+    print ("What is your " g "rd guess ?")
+    else
+    print ("What is your " g "th guess ?")
+end
+
+-- Lose/win Function
+function results (chances)
+    if (chances > 0) then
+    print ("Congrats")
+    else
+     print ("Oh No Maybe Next Time") 
+    end
+end
